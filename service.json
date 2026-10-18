@@ -1,0 +1,20 @@
+{
+  "service": "Nano Banana",
+  "repo": "NanoBananaCodex",
+  "slug": "nano-banana",
+  "mcp": "nanobanana",
+  "purpose": "Nano Banana image generation and editing",
+  "zh": "Nano Banana 图片生成与编辑",
+  "query": "nanobanana_get_task",
+  "info": null,
+  "tools": [
+    "nanobanana_generate_image",
+    "nanobanana_edit_image",
+    "nanobanana_get_task",
+    "nanobanana_get_tasks_batch"
+  ],
+  "api": "/nano-banana/images",
+  "task_api": "/nano-banana/tasks",
+  "icon_repo": "NanoBananaCursor",
+  "icon": "assets/logo.jpg"
+}

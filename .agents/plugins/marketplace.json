@@ -1,0 +1,20 @@
+{
+  "name": "acedatacloud-nano-banana",
+  "interface": {
+    "displayName": "Nano Banana by Ace Data Cloud"
+  },
+  "plugins": [
+    {
+      "name": "nano-banana",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
