@@ -1,4 +1,4 @@
-# Nano Banana by Ace Data Cloud for Codex
+# Nano Banana for Codex
 
 Nano banana image generation and editing in Codex, provided by **Ace Data Cloud**. This independent plugin reuses the [existing Nano Banana MCP](https://github.com/AceDataCloud/MCPs/tree/main/nanobanana); it does not duplicate the server or change its billing. It is not published or endorsed by the service brand or by OpenAI.
 
@@ -6,16 +6,16 @@ Nano banana image generation and editing in Codex, provided by **Ace Data Cloud*
 
 ## 1. Install the correct native plugin
 
-The target is the Codex official plugin directory with the name **Nano Banana by Ace Data Cloud**. **Official listing is not live.** The [official catalog](https://github.com/openai/plugins) submission and review are separate from this source package. Do not expect the default official search to find this integration until it is accepted.
+The target is the Codex official plugin directory with the name **Nano Banana**. **Official listing is not live.** The [official catalog](https://github.com/openai/plugins) submission and review are separate from this source package. Do not expect the default official search to find this integration until it is accepted.
 
 For the released third-party installation, add this service's marketplace using Codex 0.163.0 or later:
 
 ```bash
-codex plugin marketplace add AceDataCloud/NanoBananaCodex --ref v0.1.0
+codex plugin marketplace add AceDataCloud/NanoBananaCodex --ref v0.1.1
 codex plugin add nano-banana@acedatacloud-nano-banana --json
 ```
 
-This pins the published `v0.1.0` release. It is a third-party marketplace, not the official default catalog. Inspect the source and release before installing. In Codex's plugin interface, search **Nano Banana** within that added marketplace and check the publisher is **Ace Data Cloud**. The CLI `plugin list --available --marketplace acedatacloud-nano-banana --json` exposes the same plugin metadata. Adding a marketplace alone does not install its plugin; adding this plugin installs only Nano Banana.
+This pins the published `v0.1.1` release. It is a third-party marketplace, not the official default catalog. Inspect the source and release before installing. In Codex's plugin interface, search **Nano Banana** within that added marketplace and check the publisher is **Ace Data Cloud**. The CLI `plugin list --available --marketplace acedatacloud-nano-banana --json` exposes the same plugin metadata. Adding a marketplace alone does not install its plugin; adding this plugin installs only Nano Banana.
 
 ## 2. Get a service API key
 

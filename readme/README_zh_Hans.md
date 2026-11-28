@@ -1,4 +1,4 @@
-# Codex 的 Nano Banana by Ace Data Cloud
+# Codex 的 Nano Banana
 
 通过 Ace Data Cloud 在 Codex 使用Nano Banana 图片生成与编辑。这是独立服务插件，复用现有托管 MCP；不冒充服务品牌或 OpenAI 官方插件。
 
@@ -6,16 +6,16 @@
 
 ## 1. 安装
 
-目标是在 Codex 官方插件目录搜索 **Nano Banana**，选择 **Nano Banana by Ace Data Cloud** 并安装。当前官方尚未收录；第三方正式版本安装与官方上线分开。
+目标是在 Codex 官方插件目录搜索 **Nano Banana**，选择 **Nano Banana** 并安装。当前官方尚未收录；第三方正式版本安装与官方上线分开。
 
 安装已发布的第三方版本时，用 Codex 0.163.0 或更高版本执行：
 
 ```bash
-codex plugin marketplace add AceDataCloud/NanoBananaCodex --ref v0.1.0
+codex plugin marketplace add AceDataCloud/NanoBananaCodex --ref v0.1.1
 codex plugin add nano-banana@acedatacloud-nano-banana --json
 ```
 
-该命令固定到 `v0.1.0`，加入的是该服务的第三方目录；安装后仅启用Nano Banana。在原生插件界面选择刚加入的目录，按服务名搜索并核对发布者 Ace Data Cloud；本轮没有界面实拍验收。
+该命令固定到 `v0.1.1`，加入的是该服务的第三方目录；安装后仅启用Nano Banana。在原生插件界面选择刚加入的目录，按服务名搜索并核对发布者 Ace Data Cloud；本轮没有界面实拍验收。
 
 ## 2. 获取与配置 API Token
 

@@ -1,7 +1,7 @@
 {
   "name": "acedatacloud-nano-banana",
   "interface": {
-    "displayName": "Nano Banana by Ace Data Cloud"
+    "displayName": "Nano Banana"
   },
   "plugins": [
     {

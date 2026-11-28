@@ -3,7 +3,7 @@ name: nano-banana
 description: Use Nano Banana through Ace Data Cloud for Nano Banana image generation and editing, or retrieve an existing Nano Banana task. This is an independent service plugin, not a general chat model provider.
 ---
 
-# Nano Banana by Ace Data Cloud
+# Nano Banana
 
 Use the plugin's `nano-banana` MCP tools. Do not fall back to another provider/model or silently submit a second request.
 
